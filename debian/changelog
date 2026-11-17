@@ -1,0 +1,342 @@
+etm-powersync-remoteproxyclient (1.15.2+etm1) trixie; urgency=medium
+
+  * Lib cliente seule, à partir du tag amont 1.15.2, paquet ETM en voie B
+    (Provides versionné, Conflicts et Replaces sur libnymea-remoteproxyclient).
+
+ -- ETM-Schurig SARL <contact@etm-powersync.fr>  Wed, 21 Oct 2026 13:00:00 +0200
+
+nymea-remoteproxy (1.15.2) resolute; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Fri, 19 Jun 2026 13:36:24 +0200
+
+nymea-remoteproxy (1.15.1) resolute; urgency=medium
+
+  [ Simon Stürz ]
+  * Migtrate configuration files from /etc/nymea to /var/lib/nymea
+  * Fix leftover Qt6 porting issues
+  * Add multi-certificate file loading for fullchain SSL support
+  * Add nymea-tunnelproxy-testutils for online server tests
+
+ -- jenkins <developer@nymea.io>  Tue, 16 Jun 2026 08:58:28 +0200
+
+nymea-remoteproxy (1.15.0) noble; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Tue, 14 Apr 2026 14:23:17 +0200
+
+nymea-remoteproxy (1.14.2) noble; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Thu, 19 Feb 2026 12:13:00 +0100
+
+nymea-remoteproxy (1.14.1) noble; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Thu, 29 Jan 2026 21:28:45 +0100
+
+nymea-remoteproxy (1.14.0) noble; urgency=medium
+
+  [ Simon Stürz ]
+  * UnixSocketServer: Fix missing include in the
+
+ -- jenkins <developer@nymea.io>  Thu, 15 Jan 2026 15:28:42 +0100
+
+nymea-remoteproxy (1.13.0) jammy; urgency=medium
+
+  [ Simon Stürz ]
+  * Update license text and add SPDX identifier
+
+ -- jenkins <developer@nymea.io>  Tue, 02 Dec 2025 10:38:19 +0100
+
+nymea-remoteproxy (1.12.4) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Thu, 27 Nov 2025 11:05:13 +0100
+
+nymea-remoteproxy (1.12.3) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Tue, 04 Nov 2025 11:38:09 +0100
+
+nymea-remoteproxy (1.12.2) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Wed, 29 Oct 2025 12:27:27 +0100
+
+nymea-remoteproxy (1.12.1) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Mon, 13 Oct 2025 15:27:50 +0200
+
+nymea-remoteproxy (1.12.0) jammy; urgency=medium
+
+  [ Simon Stürz ]
+  * Add Qt6 support
+
+ -- jenkins <developer@nymea.io>  Thu, 11 Sep 2025 14:24:21 +0200
+
+nymea-remoteproxy (1.11.1) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Wed, 14 May 2025 15:23:07 +0200
+
+nymea-remoteproxy (1.11.0) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Wed, 05 Feb 2025 21:34:00 +0100
+
+nymea-remoteproxy (1.10.0) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Thu, 07 Nov 2024 13:26:01 +0100
+
+nymea-remoteproxy (1.9.5) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Mon, 21 Oct 2024 21:04:04 +0200
+
+nymea-remoteproxy (1.9.4) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Wed, 14 Aug 2024 18:34:22 +0200
+
+nymea-remoteproxy (1.9.3) jammy; urgency=medium
+
+  [ Simon Stürz ]
+  * Update debian packaging and compat level
+
+ -- jenkins <developer@nymea.io>  Fri, 19 Jul 2024 21:05:14 +0200
+
+nymea-remoteproxy (1.9.2) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Thu, 11 Apr 2024 15:45:31 +0200
+
+nymea-remoteproxy (1.9.1) jammy; urgency=medium
+
+  [ Simon Stürz ]
+  * Update install directory for tests
+
+ -- jenkins <developer@nymea.io>  Mon, 29 Jan 2024 12:22:01 +0100
+
+nymea-remoteproxy (1.9.0) jammy; urgency=medium
+
+  [ Simon Stürz ]
+  * Remove deprecated proxy and update tunnel proxy server
+
+  [ Michael Zanetti ]
+  * Fix dpkg package priority
+
+ -- jenkins <developer@nymea.io>  Thu, 23 Nov 2023 09:52:23 +0100
+
+nymea-remoteproxy (1.8.4) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Fri, 18 Aug 2023 17:11:40 +0200
+
+nymea-remoteproxy (1.8.3) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Thu, 17 Aug 2023 14:10:20 +0200
+
+nymea-remoteproxy (1.8.2) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Wed, 28 Jun 2023 09:47:27 +0200
+
+nymea-remoteproxy (1.8.1) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Wed, 07 Jun 2023 15:50:58 +0200
+
+nymea-remoteproxy (1.8.0) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Fri, 05 May 2023 11:15:51 +0200
+
+nymea-remoteproxy (1.7.0) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Tue, 21 Feb 2023 17:42:57 +0100
+
+nymea-remoteproxy (1.6.3) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Wed, 01 Feb 2023 12:17:31 +0100
+
+nymea-remoteproxy (1.6.2) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Mon, 16 Jan 2023 14:35:13 +0100
+
+nymea-remoteproxy (1.6.1) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Fri, 23 Dec 2022 11:31:55 +0100
+
+nymea-remoteproxy (1.6.0) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Sat, 10 Dec 2022 14:52:32 +0100
+
+nymea-remoteproxy (1.5.1) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Mon, 07 Nov 2022 12:47:41 +0100
+
+nymea-remoteproxy (1.5.0) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Mon, 17 Oct 2022 11:20:15 +0200
+
+nymea-remoteproxy (1.4.1) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Fri, 23 Sep 2022 16:33:27 +0200
+
+nymea-remoteproxy (1.4.0) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Tue, 09 Aug 2022 23:02:56 +0200
+
+nymea-remoteproxy (1.3.1) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Mon, 11 Jul 2022 15:34:49 +0200
+
+nymea-remoteproxy (1.3.0) jammy; urgency=medium
+
+
+ -- jenkins <developer@nymea.io>  Thu, 30 Jun 2022 15:04:11 +0200
+
+nymea-remoteproxy (1.2.0) jammy; urgency=medium
+
+  [ Simon Stürz ]
+  * Add local sockets
+
+ -- jenkins <developer@nymea.io>  Tue, 07 Jun 2022 19:43:02 +0200
+
+nymea-remoteproxy (1.1.0) jammy; urgency=medium
+
+  [ Simon Stürz ]
+  * Fix authentication reply crash if client already disconnected
+
+  [ Michael Zanetti ]
+  * Fix format string function with variable input
+
+ -- jenkins <developer@nymea.io>  Fri, 06 May 2022 18:55:22 +0200
+
+nymea-remoteproxy (1.0.0) xenial; urgency=medium
+
+  [ Simon Stürz ]
+  * Tcp server
+  * Introduce tunnel proxy
+  * Add pkgconfig for nymea-remoteproxy development library
+
+  [ Jenkins ]
+
+ -- Jenkins <jenkins@nymea.io>  Fri, 18 Mar 2022 23:08:50 +0100
+
+nymea-remoteproxy (0.1.14) xenial; urgency=medium
+
+  [ Michael Zanetti ]
+  * Make it build with gcc 10 and Ubuntu 21.04
+
+ -- Jenkins <jenkins@nymea.io>  Wed, 19 May 2021 18:25:05 +0200
+
+nymea-remoteproxy (0.1.13) xenial; urgency=medium
+
+  [ Michael Zanetti ]
+  * Add pkgconfig support
+
+ -- Jenkins <jenkins@nymea.io>  Mon, 19 Apr 2021 12:34:14 +0200
+
+nymea-remoteproxy (0.1.12) xenial; urgency=medium
+
+  [ Michael Zanetti ]
+  * Fix header install path
+
+ -- Jenkins <jenkins@nymea.io>  Sun, 14 Feb 2021 23:00:34 +0100
+
+nymea-remoteproxy (0.1.11) xenial; urgency=medium
+
+  [ Michael Zanetti ]
+  * Don't use deprecated sprintf (since Qt 5.14)
+
+ -- Jenkins <jenkins@nymea.io>  Wed, 28 Oct 2020 16:19:53 +0100
+
+nymea-remoteproxy (0.1.10) xenial; urgency=medium
+
+  [ Simon Stürz ]
+  * Allow multiple tunnels for one valid token
+
+ -- Jenkins <jenkins@nymea.io>  Tue, 02 Jun 2020 21:01:32 +0200
+
+nymea-remoteproxy (0.1.9) xenial; urgency=medium
+
+  [ Michael Zanetti ]
+  * Fix building in sbuild
+  * Update copyright
+
+ -- Jenkins <jenkins@nymea.io>  Thu, 23 Jan 2020 13:40:15 +0100
+
+nymea-remoteproxy (0.1.8) xenial; urgency=medium
+
+  [ Michael Zanetti ]
+  * Fix building in sbuild
+
+ -- Jenkins <jenkins@nymea.io>  Thu, 16 Jan 2020 00:39:25 +0100
+
+nymea-remoteproxy (0.1.7) xenial; urgency=medium
+
+  [ Michael Zanetti ]
+  * Add option to disable tests during builds
+
+ -- Jenkins <jenkins@nymea.io>  Mon, 25 Nov 2019 13:44:12 +0100
+
+nymea-remoteproxy (0.1.6) xenial; urgency=medium
+
+  [ Simon Stürz ]
+  * Fix mock authenticator for tests
+
+ -- Jenkins <jenkins@nymea.io>  Sat, 14 Sep 2019 00:58:47 +0200
+
+nymea-remoteproxy (0.1.5) xenial; urgency=medium
+
+  [ Michael Zanetti ]
+  * Enable the make check target in the dpkg package
+
+ -- Jenkins <jenkins@nymea.io>  Mon, 02 Sep 2019 18:01:39 +0200
+
+nymea-remoteproxy (0.1.4) bionic; urgency=medium
+
+  * Implement server statistics and improve monitor
+
+ -- Simon Stürz <simon.stuerz@guh.io>  Tue, 04 Sep 2018 21:05:08 +0200
+
+nymea-remoteproxy (0.1.3) bionic; urgency=medium
+
+  * Add native AWS lambda invoke code
+
+ -- Simon Stürz <simon.stuerz@guh.io>  Mon, 27 Aug 2018 13:31:18 +0200
+
+nymea-remoteproxy (0.1.2) bionic; urgency=medium
+
+  * Many bug fixes
+  * Add more scurity mechanisms
+  * Add monitor
+
+ -- Simon Stürz <simon.stuerz@guh.io>  Wed, 22 Aug 2018 16:55:07 +0200
+
+nymea-remoteproxy (0.1.0) xenial; urgency=medium
+
+  * First working online version
+
+ -- Simon Stürz <simon.stuerz@guh.io>  Thu, 16 Aug 2018 20:12:23 +0200
+
+nymea-remoteproxy (0.0.1) xenial; urgency=medium
+
+  * Initial release.
+
+ -- Michael Zanetti <michael.zanetti@guh.io>  Thu, 13 Aug 2018 21:33:51 +0200

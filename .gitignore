@@ -1,0 +1,11 @@
+*.pro.user*
+build/
+
+coverage-html
+client/nymea-remoteproxy-client
+monitor/nymea-remoteproxy-monitor
+tests/test-offline/nymea-remoteproxy-tests-offline
+tests/test-online/nymea-remoteproxy-tests-online
+.crossbuilder/
+source_repository/
+*.gcno

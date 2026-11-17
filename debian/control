@@ -1,0 +1,38 @@
+Source: etm-powersync-remoteproxyclient
+Section: libs
+Priority: optional
+Maintainer: ETM-Schurig SARL <contact@etm-powersync.fr>
+Standards-Version: 4.7.2
+Homepage: https://etm-powersync.fr
+Build-depends: debhelper,
+               dpkg-dev,
+               libssl-dev,
+               pkg-config,
+               qt6-base-dev,
+               qt6-base-dev-tools,
+               qt6-websockets-dev
+
+Package: etm-powersync-remoteproxyclient
+Architecture: any
+Section: libs
+Multi-Arch: same
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+Provides: libnymea-remoteproxyclient (= ${binary:Version})
+Conflicts: libnymea-remoteproxyclient
+Replaces: libnymea-remoteproxyclient
+Description: ETM-PowerSync remote proxy client library for nymead
+ Drop-in replacement of libnymea-remoteproxyclient 1.15.2 (same ABI) used by
+ nymead to reach the ETM-PowerSync remote proxy. When a box certificate is
+ installed, the library presents it to the proxy on the TCP connection.
+
+Package: etm-powersync-boxcert-check
+Architecture: any
+Section: utils
+Multi-Arch: foreign
+Depends: ${shlibs:Depends},
+         ${misc:Depends},
+Description: ETM-PowerSync box certificate check
+ Says whether a box certificate will be accepted by the ETM-PowerSync remote
+ proxy for a given box UUID and serial number, with the rule of the proxy.
+ Used by the enrolment of the box.
